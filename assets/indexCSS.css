@@ -1,0 +1,76 @@
+*{
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color:rgb(214, 206, 196);
+    margin: 0px;
+}
+
+header{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color:rgb(182, 166, 143);
+}
+.sub-title {
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.red {
+    border-bottom: 5px solid rgb(255, 0, 0);
+}
+.black {
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+.gold{
+    border-bottom: 5px solid rgb(255, 171, 16);
+}
+.line {
+    width: 100%;
+}   
+
+.imgCarousel {
+    background-image: url(assets/images/Carousel/BandPhoto_2023_10_15_01_08_13.jpg);
+    background-position: 0px 25%;
+    background-size: cover;
+}
+
+.flyers {
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.content{
+    display: flex;
+
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.theObject {
+    line-height: 150%;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    background-color:rgb(182, 166, 143);
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+footer {
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 100px;
+    
+    margin: 10px 0px;
+    display: flex;
+    text-decoration: none;
+}
+.socialLinks a{
+    margin: 5px;
+}
